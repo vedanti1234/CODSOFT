@@ -1,0 +1,11 @@
+
+1
+ wake up
+2
+study
+3
+watch netflix
+4
+eat
+5
+sleep

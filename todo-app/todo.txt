@@ -1,11 +1,5 @@
 
 1
- wake up
+wake up
 2
-study
-3
-watch netflix
-4
-eat
-5
-sleep
+practice coding

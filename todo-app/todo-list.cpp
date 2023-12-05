@@ -27,7 +27,7 @@ int main(){
         cout<<"\n\t4. Delete task";
 
         int choice;
-        cout<<"\n\t Enter choice";
+        cout<<"\n\t Enter choice: ";
         cin>>choice;
         switch (choice)
         {
@@ -51,16 +51,16 @@ int main(){
 }
 
 void banner(){
-    cout<<"__________________________________"<<endl;
+    cout<<"______________________________________"<<endl;
     cout<<"\t           my todo     "<<endl;
-    cout<<"__________________________________"<<endl;
+    cout<<"______________________________________"<<endl;
 }
 
 void addTask(){
     system("cls");
     banner();
     todolist todo;
-    cout<<" Enter new task "<<endl;
+    cout<<" Enter new task: "<<endl;
     cin.get();
     getline(cin,todo.task);
     char save;
@@ -75,7 +75,7 @@ void addTask(){
         fout.close();
 
         char more;
-        cout<<"Add more task ? (y/n):";
+        cout<<"Add more task ? (y/n): ";
         cin>>more;
 
         if(more=='y'){
